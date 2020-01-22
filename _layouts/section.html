@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<nav class="nav">
+  {% if page.previous %}
+    <a class="previous" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  | <a class="toc" href="{{ site.baseurl }}{% link course-text.md %}">Table of Contents</a> |
+  {% if page.next %}
+    <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</nav>
+
+<hr>
+
+<article class="section">
+
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</article>
+
+<hr>
+
+<nav class="nav">
+  {% if page.previous %}
+    <a class="previous" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  | <a class="toc" href="{{ site.baseurl }}{% link course-text.md %}">Table of Contents</a> |
+  {% if page.next %}
+    <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</nav>
