@@ -32,6 +32,13 @@ github_username:  zombiepaladin
 theme: minima
 plugins:
   - jekyll-feed
+collections:
+    textbook:
+      output: true
+    monogame-topics:
+      output: true
+    git-workflows:
+      output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
