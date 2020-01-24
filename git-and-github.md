@@ -7,6 +7,10 @@ title: "Git and Github"
 ---
 In this class, we will be working with multiple git repositories, much the way you would in professional practice.
 
+### Starter Projects
+You can find the class starter projects here:
+* [Windows Starter](https://github.com/ksu-cis/MonoGameWindowsStarter)
+
 ### Workflows
 We often talk of _workflows_ in how we work, a pattern of steps to accomplish a goal.  The following workflows are sequences of git commands you will probably use in this course, and probably in later courses and industry as well.
 
