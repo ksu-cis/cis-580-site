@@ -1,5 +1,5 @@
 ---
-layout: default
+title: "Input"
+layout: topic
 ---
-# Input
 TODO: INPUT
