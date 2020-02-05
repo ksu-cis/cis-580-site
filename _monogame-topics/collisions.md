@@ -18,7 +18,9 @@ Perhaps the most straightforward approach is the use of a _collision shape_ (als
 
 ![Collision shapes in Sonic and Super Mario Bros.](assets/bounding-shapes.png)
 
-Thus, circular sprites are represented by circles, and rectangular sprites by rectangles.  Very small sprites (like circles) can be approximated by a point.  Circles, rectangles, and points are by far the most common of 2D collision shapes, because the mathematics involved in detecting collisions with these shapes is very straightforward, and because the memory required to store these collision shapes is minimal (two numbers for a point, three numbers for circle, and four for a rectangle):
+> For a good visualization of collision shapes and the mathematics behind the collision detection, visit [Jeffrey Thompson's Collision Detection Page](http://www.jeffreythompson.org/collision-detection/table_of_contents.php)
+
+Thus, circular sprites are represented by circles, and rectangular sprites by rectangles.  Very small sprites (like circles) can be approximated by a point.  Circles, rectangles, and points are by far the most common of 2D collision shapes, because the mathematics involved in detecting collisions with these shapes is very straightforward, and because the memory required to store these collision shapes is minimal.
 
 ```csharp
 public struct BoundingCircle
