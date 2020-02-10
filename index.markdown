@@ -10,6 +10,7 @@ Welcome to the CIS 580 - Foundations of Game Programming course website.  This w
 These projects were developed in-class, and represent applications of the topics we are learning.
 
 * [First Game Example](https://github.com/zombiepaladin/cis-580-first-game)
+* [Sprite Animation Example](https://github.com/zombiepaladin/xna-sprite-demonstration.git)
 
 ## Textbook
 The lecture notes for the class have been collected into an [online textbook]({{site.baseurl}}{% link course-text.md %}) for your convenience.
