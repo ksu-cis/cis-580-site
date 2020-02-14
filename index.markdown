@@ -11,6 +11,7 @@ These projects were developed in-class, and represent applications of the topics
 
 * [First Game Example](https://github.com/zombiepaladin/cis-580-first-game)
 * [Sprite Animation Example](https://github.com/zombiepaladin/xna-sprite-demonstration.git)
+* [Platformer Example](https://github.com/zombiepaladin/platformer-example)
 
 ## Textbook
 The lecture notes for the class have been collected into an [online textbook]({{site.baseurl}}{% link course-text.md %}) for your convenience.
